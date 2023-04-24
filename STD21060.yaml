@@ -3,7 +3,7 @@ Resources:
   MyS3Bucket:
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: STD21060
+      BucketName: std21060
 
   MyBucketNameParam:
     Type: 'AWS::SSM::Parameter'
